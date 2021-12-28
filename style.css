@@ -1,0 +1,70 @@
+body{
+    margin: 0%;
+}
+/*header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgrey;
+    padding: 2%;
+}
+/* navbar */
+nav{
+    width: 50%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+h1{
+    width: 25%;
+    font-size: 2.5rem;
+}
+/* navar bar fin */
+form{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+/*header fin*/
+/*section encours*/
+.encours{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin-top: 2px;
+    background-color: darkslategray;
+    font-size: 1.5rem;
+}
+.spannoteencours{
+    font-weight: bold;
+}
+/*section encours fin*/
+/*section terminer*/
+.terminer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin-top: 2px;
+    background-color: darkslategray;
+    font-size: 1.5rem;
+}
+.spannoteterminer{
+    font-weight: bold;
+}
+/*section terminer fin*/
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgray;
+}
+h2{
+    font-weight: bold;
+}
